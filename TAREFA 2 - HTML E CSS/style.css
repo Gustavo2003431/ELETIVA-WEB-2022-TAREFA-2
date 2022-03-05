@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+.container{
+    background-color: #f7b9b9;
+    display: flex;
+    flex-direction: column;
+    height: 735px;
+    margin-top: 10px;
+    margin-right: 220px;
+    margin-bottom: 10px;
+    margin-left: 220px;
+}
+
+.header{
+    background-color: #9bdcd9;
+    margin-top: 25px;
+    margin-right: 35px;
+    margin-bottom: 20px;
+    margin-left: 35px;
+}
+
+h1{
+    color: #FFFF;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.aside1{
+    display: flex;
+}
+
+.aside2{
+    background-color: #41beb7;
+    display: flex;
+    justify-content: space-around;
+    height: 455px;
+    width: 620px;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 35px;
+}
+
+.article{
+    background-color: #d26c6c;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 455px;
+    width: 1500px;
+    margin-top: 15px;
+    margin-right: 35px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.center-word{
+    margin-top: 25%;
+}
+
+.containerImage{
+    display: flex;
+}
+
+.image{
+    background-color: #d4d4d4;
+    display: flex;
+    justify-content: space-around;
+    height: 170px;
+    width: 170px;
+    margin-inline: 20px;
+}
+
+.footer{
+    background-color: #9bdcd9;
+    margin-right: 35px;
+    margin-left: 35px;
+}
+
+@media screen  and (max-width: 1278px){
+    .aside1{
+        flex-direction: column;
+    }
+
+    .containerImage{
+        flex-direction: column;
+    }
+
+    .article{
+        height: 770px;
+        width: 620px;
+        margin-left: 35px;
+    }
+
+    .image{
+        margin-bottom: 10px;
+    }
+
+    .container{
+        height: 1550px;
+    }
+}
+
+@media screen  and (max-width: 1147px){
+    .aside2{
+        width: 500px;
+    }
+
+    .article{
+        width: 500px;
+    }
+}
+
+@media screen  and (max-width: 1031px){
+    .aside2{
+        width: 300px;
+    }
+
+    .article{
+        width: 300px;
+    }
+}
+
+@media screen  and (max-width: 828px){
+    .container{
+        width: 270px;
+    }
+
+    .aside2{
+        width: 200px;
+    }
+
+    .article{
+        width: 200px;
+    }
+}
