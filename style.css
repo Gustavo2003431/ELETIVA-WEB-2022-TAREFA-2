@@ -80,60 +80,8 @@ h1{
     margin-left: 35px;
 }
 
-@media screen  and (max-width: 1278px){
-    .aside1{
-        flex-direction: column;
-    }
-
-    .containerImage{
-        flex-direction: column;
-    }
-
-    .article{
-        height: 770px;
-        width: 620px;
-        margin-left: 35px;
-    }
-
-    .image{
-        margin-bottom: 10px;
-    }
-
-    .container{
-        height: 1550px;
-    }
-}
-
-@media screen  and (max-width: 1147px){
-    .aside2{
-        width: 500px;
-    }
-
-    .article{
-        width: 500px;
-    }
-}
-
-@media screen  and (max-width: 1031px){
-    .aside2{
-        width: 300px;
-    }
-
-    .article{
-        width: 300px;
-    }
-}
-
-@media screen  and (max-width: 828px){
-    .container{
-        width: 270px;
-    }
-
-    .aside2{
-        width: 200px;
-    }
-
-    .article{
-        width: 200px;
+@media screen  and (max-width: 2000px) {
+    .center-word{
+        margin-top: 10%;
     }
 }
